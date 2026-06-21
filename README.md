@@ -110,6 +110,29 @@ The current implementation processes data through the following sequence:
 - rqt_graph compatibility
 - rqt_plot compatibility
 
+## Visualization
+
+### ROS Graph
+
+The figure below shows the modular ROS2 node and topic architecture used by the framework.
+
+![ROS Graph](images/rqt_graph.png)
+
+---
+
+### Live Topic Plot
+
+The following plot demonstrates the relationship between joint moment, assistive torque, and motor torque during gait.
+
+![rqt_plot](images/rqt_plot.png)
+
+---
+
+### RViz Visualization
+
+RViz2 is used to visualize assistive torque as ROS visualization markers.
+
+![RViz](images/rviz_marker.png)
 
 ## Background
 
